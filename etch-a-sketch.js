@@ -1,9 +1,3 @@
-// Algorithm:
-// 1) Starts with default grid
-// 2) Have option to change the grid or get started coloring
-// 3) If clear button is pressed, the grid clears, but still on current grid selected.
-// 4) When grid is changed, the grid clears.
-
 const grid = document.getElementById("container");
 grid.id = "grid";
 const gridRangeSlider = document.querySelector("#gridRangeSlider");
